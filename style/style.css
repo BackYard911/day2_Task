@@ -1,0 +1,73 @@
+body{
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(0, 0%, 95%);
+}
+
+.bright-orange{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.bright-orange a{
+    color: hsl(31, 77%, 52%);
+}
+
+.dark-cyan{
+    background-color:hsl(184, 100%, 22%) ;
+}
+
+.dark-cyan a{
+    color: hsl(184, 100%, 22%);
+}
+
+.very-dark-cyan{
+    background-color:hsl(179, 100%, 13%) ;
+}
+
+.very-dark-cyan a{
+    color: hsl(179, 100%, 13%);
+}
+
+
+main .grid-item h2{
+    font-family: 'Big Shoulders Display', cursive;
+    color :hsl(0, 0%, 95%);
+    font-size: 36px;
+}
+
+main .grid-item a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 60px;
+    padding:10px 20px;
+    border: solid 2px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+main .grid-item a:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+
+.container{
+
+    margin: 100px auto;
+    width: 80%;
+}
+
+.grid-container{
+    display: grid;
+    border-radius: 15px;
+    overflow: hidden;
+    grid-template-columns: auto auto auto;
+    
+}
+
+.grid-item{
+    padding: 60px;
+}
+
+
